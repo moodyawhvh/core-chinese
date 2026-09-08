@@ -1,45 +1,46 @@
-# Open Home Foundation - AI Policy
+> 🌐 本文档由 [home-assistant/core](https://github.com/home-assistant/core) 翻译,英文原版见原项目。
 
-We support using AI (i.e., LLMs) as tools when contributing to Open Home Foundation projects. However, you are responsible for any contributions you submit, and we are responsible for any contributions we merge and release. We hold a high bar for all contributions to our projects.
+# Open Home Foundation —— AI 使用政策
 
-Our maintainers dedicate their time and expertise to reviewing contributions. Submitting AI-generated content that you have not personally reviewed and understood wastes that time and will not be accepted.
+我们支持在向 Open Home Foundation 项目贡献时使用 AI(即大语言模型)作为工具。但是,你提交的任何贡献都由你本人负责,我们合并并发布的任何贡献都由我们负责。我们对所有项目贡献都保持很高的标准。
 
-## Autonomous agents
+我们的维护者投入时间和专业知识来审阅贡献。提交你本人未曾审阅和理解过的 AI 生成内容,是在浪费他们的时间,不会被接受。
 
-**We do not allow autonomous agents to be used for contributing to our projects.** We will close any pull requests or issues that we believe were created autonomously, and may mark automated comments as spam. This includes contributions that bypass the provided issue or pull request templates.
+## 自主智能体
 
-## Communication on issues, pull requests, and code reviews
+**我们不允许使用自主智能体向我们的项目贡献。** 我们会关闭任何我们认为由智能体自主创建的 pull request 或 issue,并可能将自动化评论标记为垃圾信息。这包括绕过既有 issue 或 pull request 模板的贡献。
 
-We don't mind if you use AI tools to help you write. However, do not have tools post unreviewed content on your behalf. Keep responses to the minimum needed to communicate your intent. We may hide any comments that we believe are unreviewed AI output.
+## 关于 issue、pull request 和代码审阅的沟通
 
-If you are opening a pull request, we expect you to be able to explain the proposed changes in your own words. This includes the pull request description and responses to questions. If you use AI to help generate the pull request summary, you must review it for technical accuracy.
+我们不介意你使用 AI 工具辅助写作。但是,不要让工具在未经你审阅的情况下以你的名义发布内容。回复应保持到传达你的意图所需的最低限度。对于我们认为未经审阅的 AI 输出,我们可能会将其评论隐藏。
 
-**Do not use AI to generate answers to questions from maintainers.** You should understand and be able to explain your own work. Using AI to improve grammar or clarity is fine, but the substance of your responses must be your own.
+如果你要开启 pull request,我们期望你能用自己的话解释拟议的修改,包括 pull request 描述以及对问题的回复。如果你使用 AI 协助生成 pull request 摘要,你必须审核其技术准确性。
 
-If you wish to include context from an interaction with AI in your comments, it must be in a quote block (e.g., using `>`) and disclosed as such. It must be accompanied by your own commentary explaining the relevance and implications of the context. Do not share long snippets.
+**不要用 AI 来生成对维护者提问的回答。** 你应当理解并能解释自己的工作。用 AI 改善语法或表达清晰度没问题,但回复的实质内容必须是你自己的。
 
-## Non-native English speakers
+如果你想在评论中引用与 AI 交互的内容,必须放入引用块(例如用 `>`),并明确披露。同时必须附上你自己的说明,解释该内容的相关性和影响。不要粘贴大段内容。
 
-We understand that AI is useful when communicating as a non-native English speaker. Using AI to improve the grammar or clarity of text you have written yourself is fine. If you are using AI to translate your comments, please ensure the translation accurately reflects your intent. Including your original text in a details block shows the effort behind your contribution, helps maintainers verify the translation if needed, and keeps the conversation readable.
+## 非英语母语者
 
-## Code and documentation contributions
+我们理解,对非英语母语者来说,AI 在沟通中很有用。用 AI 改善自己撰写文本的语法或清晰度是允许的。如果你用 AI 翻译自己的评论,请确保译文准确反映你的本意。把你自己的原文放进折叠(details)区块,既能展示你为贡献付出的努力,也方便维护者在需要时核对译文,还能保持对话的可读性。
 
-AI can be a helpful tool for writing code and documentation. However, due to the foundational open source nature of our projects, we require a human in the loop who understands the work produced by AI.
+## 代码与文档贡献
 
-All contributions must be reviewed and understood by the contributor before submission. You should be able to explain every change in a pull request you submit. Pull requests that appear to be unreviewed AI output will be closed without review.
+AI 可以是编写代码和文档的有用工具。但是,鉴于我们项目的基础性开源属性,我们要求必须有"人"参与其中并理解 AI 产出的工作。
 
-## Our use of AI
+所有贡献在提交前都必须由贡献者本人审阅和理解。你应当能够解释你所提交的 pull request 中的每一处修改。看起来未经审阅的 AI 输出的 pull request 将被直接关闭,不予审阅。
 
-Some of our projects use AI tools to assist with code reviews, issue triaging, reporting, and other project management tasks. These tools may leave comments on pull requests or issues. As with any automated tooling, these comments are not always correct.
+## 我们对 AI 的使用
 
-If an AI tool leaves a comment on your contribution, treat it as you would any other review comment. If you believe it is incorrect, say so; a brief explanation is sufficient. Maintainers always have the final say. If in doubt, ask a maintainer.
+我们的一些项目使用 AI 工具辅助代码审阅、issue 分诊、报告和其他项目管理任务。这些工具可能会在 pull request 或 issue 下留言。与任何自动化工具一样,这些评论并非总是正确。
 
-## Enforcement
+如果 AI 工具在你的贡献下留言,请像对待其他审阅意见一样对待它。如果你认为它不正确,直接说明即可,简短解释就足够了。维护者始终拥有最终决定权。有疑问时,请询问维护者。
 
-Contributions that do not follow this policy will be closed. Repeated violations may result in being blocked from contributing to OHF projects. If you believe your contribution was closed in error, you are welcome to reach out to a maintainer to discuss.
+## 执行
+
+不遵循本政策的贡献将被关闭。屡次违反可能导致被禁止向 OHF 项目贡献。如果你认为你的贡献被错误关闭,欢迎联系维护者讨论。
 
 ---
 
-The canonical version of this policy is published at
-<https://developers.home-assistant.io/docs/ai_policy>. In case of differences,
-the published version applies.
+本政策的权威版本发布于
+<https://developers.home-assistant.io/docs/ai_policy>。如有出入,以发布版本为准。
