@@ -1,24 +1,22 @@
+> 🌐 本文档由 [home-assistant/core](https://github.com/home-assistant/core) 翻译,英文原版见原项目。
+
 Home Assistant |Chat Status|
 =================================================================================
 
-Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+开源家庭自动化,本地控制与隐私优先。由全球创客和 DIY 爱好者社区驱动。非常适合运行在树莓派或本地服务器上。
 
-Check out `home-assistant.io <https://home-assistant.io>`__ for `a
-demo <https://demo.home-assistant.io>`__, `installation instructions <https://home-assistant.io/getting-started/>`__,
-`tutorials <https://home-assistant.io/getting-started/automation/>`__ and `documentation <https://home-assistant.io/docs/>`__.
+访问 `home-assistant.io <https://home-assistant.io>`__ 查看`在线演示 <https://demo.home-assistant.io>`__、`安装说明 <https://home-assistant.io/getting-started/>`__、`教程 <https://home-assistant.io/getting-started/automation/>`__ 和`文档 <https://home-assistant.io/docs/>`__。
 
 |screenshot-states|
 
-Featured integrations
+精选集成
 ---------------------
 
 |screenshot-integrations|
 
-The system is built using a modular approach so support for other devices or actions can be implemented easily. See also the `section on architecture <https://developers.home-assistant.io/docs/architecture_index/>`__ and the `section on creating your own
-components <https://developers.home-assistant.io/docs/creating_component_index/>`__.
+系统采用模块化架构,因此可以轻松添加对其他设备或动作的支持。参见`架构章节 <https://developers.home-assistant.io/docs/architecture_index/>`__ 和`创建你自己的组件章节 <https://developers.home-assistant.io/docs/creating_component_index/>`__。
 
-If you run into issues while using Home Assistant or during development
-of a component, check the `Home Assistant help section <https://home-assistant.io/help/>`__ of our website for further help and information.
+如果你在使用 Home Assistant 或开发组件的过程中遇到问题,请查看我们网站的 `Home Assistant 帮助板块 <https://home-assistant.io/help/>`__ 获取更多帮助和信息。
 
 |ohf-logo|
 

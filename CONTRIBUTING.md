@@ -1,28 +1,27 @@
-# Contributing to Home Assistant
+> 🌐 本文档由 [home-assistant/core](https://github.com/home-assistant/core) 翻译,英文原版见原项目。
 
-Everybody is invited and welcome to contribute to Home Assistant. There is a lot to do...if you are not a developer perhaps you would like to help with the documentation on [home-assistant.io](https://home-assistant.io/)? If you are a developer and have devices in your home which aren't working with Home Assistant yet, why not spend a couple of hours and help to integrate them?
+# 参与 Home Assistant 贡献
 
-The process is straight-forward.
+每个人都被邀请并欢迎为 Home Assistant 做贡献。要做的事情很多……如果你不是开发者,或许你愿意帮忙完善 [home-assistant.io](https://home-assistant.io/) 上的文档?如果你是开发者,家里还有设备尚未被 Home Assistant 支持,何不花几个小时帮它们写个集成?
 
- - Read [How to get faster PR reviews](https://github.com/kubernetes/community/blob/master/contributors/guide/pull-requests.md#best-practices-for-faster-reviews) by Kubernetes (but skip step 0 and 1)
- - Fork the Home Assistant [git repository](https://github.com/home-assistant/core).
- - Write the code for your device, notification service, sensor, or IoT thing.
- - Ensure tests work.
- - Create a Pull Request against the [**dev**](https://github.com/home-assistant/core/tree/dev) branch of Home Assistant.
+流程非常简单。
 
-Still interested? Then you should take a peek at the [developer documentation](https://developers.home-assistant.io/) to get more details.
+ - 阅读 Kubernetes 的 [如何让 PR 更快被 review](https://github.com/kubernetes/community/blob/master/contributors/guide/pull-requests.md#best-practices-for-faster-reviews)(跳过第 0 步和第 1 步)
+ - Fork Home Assistant 的 [git 仓库](https://github.com/home-assistant/core)。
+ - 为你的设备、通知服务、传感器或 IoT 设备编写代码。
+ - 确保测试通过。
+ - 向 Home Assistant 的 [**dev**](https://github.com/home-assistant/core/tree/dev) 分支提交 Pull Request。
 
-## Feature suggestions
+还有兴趣吗?那就去看看[开发者文档](https://developers.home-assistant.io/)了解更多细节。
 
-If you want to suggest a new feature for Home Assistant (e.g. new integrations), please [start a discussion](https://github.com/orgs/home-assistant/discussions) on GitHub.
+## 功能建议
 
-## Issue Tracker
+如果你想为 Home Assistant 建议新功能(例如新的集成),请在 GitHub 上[发起讨论](https://github.com/orgs/home-assistant/discussions)。
 
-If you want to report an issue, please [create an issue](https://github.com/home-assistant/core/issues) on GitHub.
+## 问题跟踪
 
-## AI policy
+如果你想报告问题,请在 GitHub 上[创建 issue](https://github.com/home-assistant/core/issues)。
 
-This project follows the [Open Home Foundation AI Policy](AI_POLICY.md). In
-short: AI tools are welcome as an aid, but you must fully understand and be
-able to explain every change you submit. Contributions made by autonomous
-agents are not accepted.
+## AI 政策
+
+本项目遵循 [Open Home Foundation AI 政策](AI_POLICY.md)。简而言之:欢迎将 AI 工具作为辅助,但你必须完全理解并能够解释你提交的每一处修改。不接受由自主智能体完成的贡献。
